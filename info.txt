@@ -1,0 +1,9 @@
+Installation:
+npm install --save-dev@types/node --> Allow ts to use node code
+npm install --save-dev@types/express
+npm install --save-dev@types/body-parser
+
+Programming Details:
+*Check the tsconfig.json to check the compile options of ts 
+*npm start -> to run the server (after compile ts to js 'tsc[command]') 
+before moving the js files to dist it was node app.js (now runing thanks to the script start set in package.json)
